@@ -20,6 +20,7 @@ export default function Hero() {
                                 <a href='#'>
                                     <Image
                                         src={logo}
+                                        alt="Saccha Sur"
                                     />
                                 </a>
                             </div>
