@@ -5,8 +5,9 @@ export default function Testimonials() {
         <section id="community" className='relative pt-24 pb-32 bg-white overflow-hidden'>
         <Image
           className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'
-          src='flaro-assets/images/testimonials/gradient3.svg'
+          src='/flaro-assets/images/testimonials/gradient3.svg'
           alt=''
+          layout='fill'
         />
         <div className='relative z-10 container px-4 mx-auto'>
           <div className='flex flex-wrap justify-between items-end -m-2 mb-12'>

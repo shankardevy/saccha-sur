@@ -1,6 +1,9 @@
 'use client'
 import { useState } from 'react'
 import Image from 'next/image'
+import bookCover from '@/../public/images/book-cover.png'
+import logo from '@/../public/images/tell-me-a-story-2.png'
+
 
 import Preview from '@/app/components/preview'
 
@@ -16,8 +19,7 @@ export default function Hero() {
                             <div className='w-auto mr-14'>
                                 <a href='#'>
                                     <Image
-                                        src='images/tell-me-a-story-2.png'
-                                        alt=''
+                                        src={logo}
                                     />
                                 </a>
                             </div>
@@ -107,7 +109,7 @@ export default function Hero() {
                             </div>
                             <Image
                                 className='shadow shadow-md transform hover:-translate-y-16 transition ease-in-out duration-1000'
-                                src='images/Screenshot-2023-11-24-at-7-08-33-AM.png'
+                                src={bookCover}
                                 alt=''
                             />
                         </div>

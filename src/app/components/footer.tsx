@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import logo from '@/../public/images/tell-me-a-story-2.png'
 
 export default function Footer() {
     return (
@@ -7,15 +8,16 @@ export default function Footer() {
         <section className='relative py-16 bg-white overflow-hidden'>
           <Image
             className='absolute top-0 left-0 h-full'
-            src='flaro-assets/images/footers/gradient4.svg'
+            src='/flaro-assets/images/footers/gradient4.svg'
             alt=''
+            layout='fill'
           />
           <div className='relative z-10 container px-4 mx-auto'>
             <div className='flex flex-wrap justify-between items-center -m-8'>
               <div className='w-auto p-8'>
                 <a href='#'>
                   <Image
-                    src='images/tell-me-a-story-2.png'
+                    src={logo}
                     alt=''
                   />
                 </a>

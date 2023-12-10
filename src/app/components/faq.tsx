@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import gradient from '@/../public/flaro-assets/images/faqs/gradient.svg'
 
 export default function FAQ() {
     return (
@@ -6,8 +7,9 @@ export default function FAQ() {
         <section className='relative pt-24 pb-28 bg-blueGray-50 overflow-hidden'>
           <Image
             className='absolute bottom-0 left-1/2 transform -translate-x-1/2'
-            src='flaro-assets/images/faqs/gradient.svg'
+            src={gradient}
             alt=''
+            layout='fill'
           />
           <div className='relative z-10 container px-4 mx-auto'>
             <div className='md:max-w-4xl mx-auto'>
