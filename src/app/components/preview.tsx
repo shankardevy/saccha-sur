@@ -14,7 +14,7 @@ export default function Preview({ isOpen, setOpen }) {
         if (isOpen && audioRef.current) {
             console.log('Modal isOpen:', isOpen);
             console.log('audioRef.current:', audioRef.current);
-
+            audioRef.current.volume = 0.1;
           audioRef.current.play().catch(error => {
             console.error("Error playing audio:", error);
             // Handle the error for autoplay restrictions, etc.
@@ -69,29 +69,171 @@ export default function Preview({ isOpen, setOpen }) {
               leaveFrom="opacity-100 translate-y-0 sm:scale-100"
               leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
             >
-              <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-sm sm:p-6">
+              <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-2xl sm:p-6">
                 <div>
-                  <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
-                    <CheckIcon className="h-6 w-6 text-green-600" aria-hidden="true" />
-                  </div>
-                  <div className="mt-3 text-center sm:mt-5">
-                    <Dialog.Title as="h3" className="text-base font-semibold leading-6 text-gray-900">
-                      Light
+                  <div className="mt-3 text-left sm:mt-5">
+                    <Dialog.Title as="h3" className="font-semibold text-3xl text-gray-900">
+                    Let there be Light
                     </Dialog.Title>
-                    <div className="mt-2">
+                    <div className="mt-2 prose lg:prose-xl">
+
+
+
+<p className="text-2xl">Moving from Darkness to Dawn</p>
+<p>How does one find a guru? I could think
+  of only one way to get a definitive answer
+  to this question. I had to ask my friend, the
+  wise old musician, Bhaskar!</p>
+  <p>Bhaskar was more than twice my age
+  at that time. Even then, we had an easy
+  and f riendly relationship. Most times I
+  would not have hesitated to call him my
+  best f riend. We talked about anything
+  and everything.</p>
+  
+
+  <p>A few days later I met Bhaskar and asked him
+  my question, “How does one find a Guru?”
+  He looked at me very intently for a long time
+  and then said, “You cannot!” took one of his
+  very long pauses and continued, “The Guru
+  finds you!”</p>
+  
+  <p>This was not the answer I was expecting.
+  “Surely there is something one can do to find
+  a guru?” feeling a little uncomfortable at the
+  one-sidedness of the above statement.
+  It looked like Bhaskar had lost interest in
+  the question but he was merely lost in his
+  thoughts. He came back and responded,
+  “No, not really. The Guru finds you.”
+  “I cannot accept that”, I said forcefully,
+  “I have always found my own teachers…”
+  “AHA!” he said, “Teachers! Yes, you can find
+  your own teachers but the guru has to find
+  you. There is no other way.”
+  Now I was confused.
+  “What is the difference between a teacher
+  and a guru?” I asked.
+  “Great question” he said, “come back in a
+  couple of days and we can talk about this.”</p>
+
+  <p>The couple of days turned into a couple of
+months. One day Bhaskar had a concert in a
+small town and asked me if I wanted to go. I
+eagerly agreed. On the drive there he began
+without preamble.</p>
+
+<p>“When you know that you don’t know
+something, you can go find someone to
+teach you. But if you don’t know that you
+don’t know – in other words if you are not
+even aware of your ignorance – how are you
+going to find a teacher for that?”
+“A Guru sheds light on that which you
+don’t know that you don’t know and thus
+gets you to a stage that you know that
+you don’t know! It is the first and essential
+step of all learning. Since you are unaware
+at this stage about your ignorance, it is
+unlikely that you will even feel the need
+to learn, much less be able to find the
+person who will get rid of this ignorance.
+A disciple, the Shishya, therefore has no
+ability to find his guru. The guru has to
+find him. It is an act of grace, compassion
+and kindness.”</p>
+
+<p>Like all his words, these words had an
+instant and deep ring of truth to them,
+“Wow!” I said, “I did not realise that. So, I
+have been choosing teachers till now.”
+His face was very soft and eyes were far,
+far away. “Yes, you can find your teachers
+because you know that you don’t know
+something. The teacher takes you from that
+stage to the stage where you know that
+you know.”</p>
+
+<p>“There are about seven major differences
+between a Guru and a Teacher,” he
+continued, reading my mind. Here is the
+summary of the differences that he told me
+on that drive.</p>
+
+<ul>
+    <li>A teacher has a skill or some specialised
+knowledge whereas a Guru’s role is to
+illuminate. The teacher gives you Vidya;
+the Guru gives you light.</li>
+<li>The interaction between a teacher and
+student is a transaction – the teacher
+teaches you their competence and you
+compensate them for their time. The
+Guru-Shishya relationship is one of love
+and compassion. The teacher gives you
+knowledge, the guru his grace. You
+repay your teachers with dakshina, you
+repay your gurus by living the truths
+that were illuminated for you.</li>
+<li>The teacher points you towards the
+goal; the guru points you to yourself.</li>
+<li>The good teacher answers your
+questions, a great teacher will question
+your answers; the guru questions your
+questions. He helps you understand
+why the question arose in the first
+place. He asks of you, Who is asking
+this question and Why is this question
+being asked?</li>
+<li>You sit facing the teacher and look at
+the teacher. The guru stands behind your
+shoulder to shine light on that, which is
+dark for you.</li>
+<li>A teacher teaches you through your
+senses; a guru makes you more sensitive.
+A teacher reduces your ignorance; a guru
+makes you more aware of your ignorance.</li>
+<li>And finally, you can’t find your guru; the
+guru has to find you. It is because of the
+guru’s illuminating light that you seek
+your teachers.</li>
+</ul>
+<p>The rest of the drive was spent in silence as
+I digested the deep import of this wisdom
+given to me. This was a profoundly different
+way of looking at learning, and one that I
+was not entirely comfortable with.</p>
+
+<p>It took me almost till the end of the drive
+to verbalise my question: “Surely there is
+something one can do to find a guru?” As
+soon as I asked this, I felt a tinge of regret
+because I realised immediately that I had
+already asked this exact question a few
+months before.</p>
+
+<p>Bhaskar gave me a long and pitying look,
+“Obviously, you have not understood
+anything from what I told you.” It looked like
+he meant to add, “you idiot” to that sentence
+but stopped short.</p>
+
+<p>Instantly though he smiled the most sunny
+and cheerful smile that was his hallmark,
+“Oh! Don’t look so crestfallen. There is one
+way. And that was my way. From this day
+forward, accept that EVERY person who
+crosses your path is your Guru. And one day,
+it will be true.”</p>
+
 
 
                     </div>
                   </div>
                 </div>
                 <div className="mt-5 sm:mt-6">
-                  <button
-                    type="button"
-                    className="inline-flex w-full justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                    onClick={() => setOpen(false)}
-                  >
-                    Go back to dashboard
-                  </button>
+
                 </div>
               </Dialog.Panel>
             </Transition.Child>

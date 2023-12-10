@@ -34,7 +34,7 @@ export default function Hero() {
                     <div className='flex flex-wrap -m-8'>
                         <div className='w-full md:w-2/3 p-8'>
                             <h1
-                                className='mb-6 text-6xl md:text-7xl font-bold font-heading md:max-w-3xl leading-none text-sky-600'>
+                                className='mb-6 text-6xl font-bold font-heading md:max-w-3xl leading-none text-sky-600'>
                                 Stories are meant to be told and retold
                             </h1>
                             <p
