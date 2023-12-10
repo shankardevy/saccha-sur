@@ -1,9 +1,11 @@
+import Image from 'next/image'
+
 export default function Footer() {
     return (
 
 
         <section className='relative py-16 bg-white overflow-hidden'>
-          <img
+          <Image
             className='absolute top-0 left-0 h-full'
             src='flaro-assets/images/footers/gradient4.svg'
             alt=''
@@ -12,7 +14,7 @@ export default function Footer() {
             <div className='flex flex-wrap justify-between items-center -m-8'>
               <div className='w-auto p-8'>
                 <a href='#'>
-                  <img
+                  <Image
                     src='images/tell-me-a-story-2.png'
                     alt=''
                   />

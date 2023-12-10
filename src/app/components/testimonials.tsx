@@ -1,7 +1,9 @@
+import Image from 'next/image'
+
 export default function Testimonials() {
     return (
         <section id="community" className='relative pt-24 pb-32 bg-white overflow-hidden'>
-        <img
+        <Image
           className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'
           src='flaro-assets/images/testimonials/gradient3.svg'
           alt=''
