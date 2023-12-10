@@ -2,26 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+#show_bg_2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(307deg, white , white, transparent 70%) , url(/images/FL2.jpg) no-repeat center;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  background-size: auto;
+  color: white;
+  padding: 20px;
+  z-index: -1;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+#hero {
+  background: linear-gradient(145deg, white , white, transparent 70%) , url(/images/IMG_6172.jpg) no-repeat center;
+  background-size: cover;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+#community {
+  background: linear-gradient(306deg, transparent 20%, white , white) , url(/images/FL2.jpg) repeat right;
 }
