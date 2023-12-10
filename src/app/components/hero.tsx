@@ -40,7 +40,7 @@ export default function Hero() {
                             </h1>
                             <p
                                 className='mb-11 text-gray-900 font-medium md:max-w-xl text-2xl'>
-                                A journey through stories that offer deep wisdom and insight, cultivating soul in the field of grace.
+                                An evocative collection of generational wisdom inspired by great artists, to help you cultivate your soul in a field of grace.
                             </p>
                             <div className='flex flex-wrap -m-2.5 mb-20'>
                                 <div className='w-full md:w-auto p-2.5'>

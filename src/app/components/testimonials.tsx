@@ -7,15 +7,15 @@ export default function Testimonials() {
         <div className='relative z-10 container px-4 mx-auto'>
           <div className='flex flex-wrap justify-between items-end -m-2 mb-12'>
             <div className='w-auto p-2'>
-              <h2 className='text-6xl md:text-7xl font-bold font-heading tracking-px-n leading-tight'>
+              <h2 className='text-6xl font-bold font-heading tracking-px-n text-sky-600'>
                 What readers say!
               </h2>
             </div>
             <div className='w-auto p-2' />
           </div>
           <div className='flex flex-wrap -m-2'>
-            <div className='w-full md:w-1/2 lg:w-1/3 p-2'>
-              <div className='px-8 py-6 h-full bg-white rounded-3xl'>
+            <div className='w-full md:w-1/2 lg:w-1/3 p-2 '>
+              <div className='px-8 py-6 h-full bg-white rounded-3xl shadow shadow-xl'>
                 <div className='flex flex-col justify-between h-full'>
                   <div className='mb-7 block'>
                     <p className='text-lg'>
@@ -31,7 +31,7 @@ export default function Testimonials() {
               </div>
             </div>
             <div className='w-full md:w-1/2 lg:w-1/3 p-2'>
-              <div className='px-8 py-6 h-full bg-white rounded-3xl'>
+              <div className='px-8 py-6 h-full bg-white rounded-3xl shadow shadow-xl'>
                 <div className='flex flex-col justify-between h-full'>
                   <div className='mb-7 block'>
                     <p className='text-lg'>
@@ -48,7 +48,7 @@ export default function Testimonials() {
             </div>
 
             <div className='w-full md:w-1/2 lg:w-1/3 p-2'>
-              <div className='px-8 py-6 h-full bg-white rounded-3xl'>
+              <div className='px-8 py-6 h-full bg-white rounded-3xl shadow shadow-xl'>
                 <div className='flex flex-col justify-between h-full'>
                   <div className='mb-7 block'>
                     <p className='text-lg'>

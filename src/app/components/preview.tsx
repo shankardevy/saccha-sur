@@ -4,6 +4,11 @@ import { Fragment, useEffect, useRef } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { CheckIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
+import localFont from 'next/font/local'
+const papyrus = localFont({ src: './papyrus.ttf' })
+const ayuthaya = localFont({ src: './Ayuthaya.ttf' })
+
+
 
 import HTMLFlipBook from 'react-pageflip';
 export default function Preview({ isOpen, setOpen }) {
@@ -72,21 +77,21 @@ export default function Preview({ isOpen, setOpen }) {
               <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-2xl sm:p-6">
                 <div>
                   <div className="mt-3 text-left sm:mt-5">
-                    <Dialog.Title as="h3" className="font-semibold text-3xl text-gray-900">
-                    Let there be Light
+                    <Dialog.Title as="h3" className="font-semibold text-center text-5xl text-gray-900 pb-5">
+                    <span className={papyrus.className}>Let there be Light</span>
                     </Dialog.Title>
-                    <div className="mt-2 prose lg:prose-xl">
+                    <p className="text-2xl text-center">Moving from Darkness to Dawn</p>
+
+                    <div className={`mt-10 prose lg:prose-xl ${ayuthaya.className}`}>
 
 
-
-<p className="text-2xl">Moving from Darkness to Dawn</p>
 <p>How does one find a guru? I could think
   of only one way to get a definitive answer
   to this question. I had to ask my friend, the
   wise old musician, Bhaskar!</p>
   <p>Bhaskar was more than twice my age
   at that time. Even then, we had an easy
-  and f riendly relationship. Most times I
+  and friendly relationship. Most times I
   would not have hesitated to call him my
   best f riend. We talked about anything
   and everything.</p>
@@ -102,20 +107,21 @@ export default function Preview({ isOpen, setOpen }) {
   <p>This was not the answer I was expecting.
   “Surely there is something one can do to find
   a guru?” feeling a little uncomfortable at the
-  one-sidedness of the above statement.
-  It looked like Bhaskar had lost interest in
+  one-sidedness of the above statement.</p>
+  <p>It looked like Bhaskar had lost interest in
   the question but he was merely lost in his
   thoughts. He came back and responded,
-  “No, not really. The Guru finds you.”
-  “I cannot accept that”, I said forcefully,
-  “I have always found my own teachers…”
-  “AHA!” he said, “Teachers! Yes, you can find
+  “No, not really. The Guru finds you.”</p>
+
+  <p>“I cannot accept that”, I said forcefully,
+  “I have always found my own teachers…”</p>
+  <p>“AHA!” he said, “Teachers! Yes, you can find
   your own teachers but the guru has to find
-  you. There is no other way.”
-  Now I was confused.
-  “What is the difference between a teacher
-  and a guru?” I asked.
-  “Great question” he said, “come back in a
+  you. There is no other way.”</p>
+  <p>Now I was confused.</p>
+  <p>“What is the difference between a teacher
+  and a guru?” I asked.</p>
+  <p>“Great question” he said, “come back in a
   couple of days and we can talk about this.”</p>
 
   <p>The couple of days turned into a couple of
@@ -129,8 +135,8 @@ something, you can go find someone to
 teach you. But if you don’t know that you
 don’t know – in other words if you are not
 even aware of your ignorance – how are you
-going to find a teacher for that?”
-“A Guru sheds light on that which you
+going to find a teacher for that?”</p>
+<p>“A Guru sheds light on that which you
 don’t know that you don’t know and thus
 gets you to a stage that you know that
 you don’t know! It is the first and essential

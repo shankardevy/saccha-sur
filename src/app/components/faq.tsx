@@ -16,7 +16,7 @@ export default function FAQ() {
               <p className='mb-7 text-sm text-indigo-600 text-center font-semibold uppercase tracking-px text-sky-600'>
                 Have any questions?
               </p>
-              <h2 className='mb-16 text-6xl md:text-7xl text-center font-bold font-heading tracking-px-n leading-none text-sky-600'>
+              <h2 className='mb-16 text-6xl text-center font-bold font-heading tracking-px-n leading-none text-sky-600'>
                 Frequently Asked Questions
               </h2>
               <div className='mb-11 flex flex-wrap -m-1'>
