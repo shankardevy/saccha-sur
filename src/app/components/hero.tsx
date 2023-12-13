@@ -37,19 +37,18 @@ export default function Hero() {
                     <div className='flex flex-wrap -m-8'>
                         <div className='w-full md:w-2/3 p-8'>
                             <h1
-                                className='mb-6 text-5xl font-bold font-heading md:max-w-3xl leading-none text-sky-600'>
-                                <span className={papyrus.className}>Stories are meant to be <br/>told and retold</span>
+                                className='leading-relaxed mb-6 text-2xl md:text-5xl font-bold font-heading md:max-w-3xl text-sky-600'>
+                                <span className={papyrus.className}>Stories are meant to be told and retold</span>
                             </h1>
                             <p
-                                className='mb-11 text-gray-700 font-medium md:max-w-xl text-lg'>
+                                className='mb-11 text-gray-700 font-medium md:max-w-xl md:text-lg'>
                                 <span className={ayuthaya.className}>An evocative collection of generational wisdom to help you cultivate your soul in the field of grace.</span>
                             </p>
                             <div className='flex flex-wrap -m-2.5 mb-20'>
                                 <div className='w-full md:w-auto p-2.5'>
-                                    <div className='block'>
+                                    <div className='block text-center'>
                                         <a href="https://pages.razorpay.com/pl_N6TrGb0E9gozlm/view"
                                             className='block py-3 px-6 w-full text-white font-semibold border rounded-xl focus:ring transition ease-in-out duration-200 text-base font-medium focus:ring-gray-50 bg-orange-500 border-yellow-600 focus:ring-yellow-400 hover:bg-orange-600'
-                                            
                                         >
                                             Buy the Book
                                         </a>

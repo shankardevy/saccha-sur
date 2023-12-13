@@ -14,7 +14,7 @@ export default function FAQ() {
           />
           <div className='relative z-10 container px-4 mx-auto'>
             <div className='md:max-w-4xl mx-auto'>
-              <h2 className='mb-16 text-5xl text-center font-bold font-heading tracking-px-n leading-none text-sky-600'>
+              <h2 className='mb-16 text-2xl md:text-5xl text-center font-bold font-heading tracking-px-n leading-relaxed text-sky-600'>
                 <span className={papyrus.className}>Frequently Asked Questions</span>
               </h2>
               <div className='mb-11 flex flex-wrap -m-1'>
@@ -219,7 +219,7 @@ export default function FAQ() {
                 </div>
               </div>
               <p className='text-gray-600 text-center font-medium'>
-                <span>Still have any questions?&nbsp;</span>
+                <span>Still have any questions?&nbsp;</span><br/>
                 <a
                   className='font-semibold text-indigo-600 hover:text-indigo-700'
                   href='#'

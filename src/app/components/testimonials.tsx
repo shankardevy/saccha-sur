@@ -9,7 +9,7 @@ export default function Testimonials() {
         <div className='relative z-10 container px-4 mx-auto'>
           <div className='flex flex-wrap justify-between items-end -m-2 mb-12'>
             <div className='w-auto p-2'>
-              <h2 className='text-5xl font-bold font-heading tracking-px-n text-sky-600'>
+              <h2 className='text-2xl md:text-5xl font-bold font-heading tracking-px-n text-sky-600'>
                 <span className={papyrus.className}>What readers say!</span>
               </h2>
             </div>
