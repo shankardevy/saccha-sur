@@ -23,11 +23,9 @@ export default function FAQ() {
                     <div className='py-7 px-8 bg-white bg-opacity-60 border-2 border-indigo-600 rounded-2xl shadow-10xl'>
                       <div className='flex flex-wrap justify-between -m-2'>
                         <div className='flex-1 p-2'>
-                          <h3 className='mb-4 text-lg font-semibold leading-normal'>
-                            ⁠What is "Saccha Sur" all about?
-                          </h3>
+                          <h3 className='mb-4 text-lg font-semibold leading-normal'>⁠What is Saccha Sur all about?</h3>
                           <p className='text-gray-600 font-medium'>
-                          Saccha Sur is a compilation of first hand experiences of Sanghmitra with the incredible gurus - Bhaskar and Freddy !  To the world, Bhaskar and Freddy, were phenomenal musicians; for Sanghmitra, they were Grace Incarnate. Music was the craft they taught, yet the flowering of the disciple was their sole objective. Every story in Saccha Sur, is a carefully curated vignette, carrying a drop of timeless truth that feeds the soul ! These stories are an invitation to transformation ...each one can be the beginning of something new !
+                          Saccha Sur is a compilation of first hand experiences of Sanghmitra with the incredible gurus - Bhaskar and Freddy! To the world, Bhaskar and Freddy, were phenomenal musicians; for Sanghmitra, they were Grace Incarnate. Music was the craft they taught, yet the flowering of the disciple was their sole objective. Every story in Saccha Sur, is a carefully curated vignette, carrying a drop of timeless truth that feeds the soul! These stories are an invitation to transformation ...each one can be the beginning of something new!
                           </p>
                         </div>
                         <div className='w-auto p-2'>
@@ -58,7 +56,7 @@ export default function FAQ() {
                       <div className='flex flex-wrap justify-between -m-2'>
                         <div className='flex-1 p-2'>
                           <h3 className='text-lg font-semibold leading-normal'>
-                            ⁠Is "Saccha Sur" available for international shipping?  
+                            ⁠Is Saccha Sur available for international shipping?  
                           </h3>
                           <p>Yes, International shipping is available. Please click on this link to learn about the shipping charges to various countries. If your state or country is not mentioned, please write to us on this link with your order quantity, full address and telephone number and we will get back to you regarding the exact shipping cost. 
       </p>
@@ -160,7 +158,7 @@ export default function FAQ() {
                           <h3 className='text-lg font-semibold leading-normal'>
                           ⁠Is there an e-book version available?
                           </h3>
-                          <p>The "Saccha Sur" book has been carefully created as a piece of art that can be appreciated with all your senses. We have not planned for an e-book for now however, please leave us a note here and we will consider your suggestion.</p>
+                          <p>The Saccha Sur book has been carefully created as a piece of art that can be appreciated with all your senses. We have not planned for an e-book for now however, please leave us a note here and we will consider your suggestion.</p>
                         </div>
                         <div className='w-auto p-2'>
                           <svg

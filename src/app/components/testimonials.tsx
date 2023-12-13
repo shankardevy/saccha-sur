@@ -21,7 +21,7 @@ export default function Testimonials() {
                 <div className='flex flex-col justify-between h-full'>
                   <div className='mb-7 block'>
                     <p>
-                    In these days with so little wisdom and too much violence, Saccha Sur brings us back to the simplicity and complexity of being human.  Brings us back to ourselves and lays us back on the path to life, and love and being alive.  Out of the noise into oneness.  It is an invitation to be in relationship with the questions that are just more steppingstones on the endless path of being.    Awaken to love.
+                    In these days with so little wisdom and too much violence, Saccha Sur brings us back to the simplicity and complexity of being human. Brings us back to ourselves and lays us back on the path to life, and love and being alive.  Out of the noise into oneness.  It is an invitation to be in relationship with the questions that are just more steppingstones on the endless path of being. Awaken to love.
                     </p>
                   </div>
                   <div className='block'>
@@ -71,7 +71,7 @@ export default function Testimonials() {
                 <div className='flex flex-col justify-between h-full'>
                   <div className='mb-7 block'>
                     <p>
-                    Saccha Sur is a treasure of profound insights, offering deep wisdom, packaged as short, engaging stories. This book has earned its place of honor in my living room; it's become a ritual to randomly select a story and, invariably, I discover the exact lesson I need at that moment. Whether it's a reminder to live fully in the present or to approach life with a sense of wonder, each story has a way of striking a chord.
+                    Saccha Sur is a treasure of profound insights, offering deep wisdom, packaged as short, engaging stories. This book has earned its place of honor in my living room; it&apos;s become a ritual to randomly select a story and, invariably, I discover the exact lesson I need at that moment. Whether it&apos;s a reminder to live fully in the present or to approach life with a sense of wonder, each story has a way of striking a chord.
                     </p>
                   </div>
                   <div className='block'>
