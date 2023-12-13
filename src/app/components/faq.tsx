@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import gradient from '@/../public/flaro-assets/images/faqs/gradient.svg'
+import localFont from 'next/font/local'
+const papyrus = localFont({ src: './papyrus.ttf' })
 
 export default function FAQ() {
     return (
@@ -13,11 +15,8 @@ export default function FAQ() {
           />
           <div className='relative z-10 container px-4 mx-auto'>
             <div className='md:max-w-4xl mx-auto'>
-              <p className='mb-7 text-sm text-indigo-600 text-center font-semibold uppercase tracking-px text-sky-600'>
-                Have any questions?
-              </p>
-              <h2 className='mb-16 text-6xl text-center font-bold font-heading tracking-px-n leading-none text-sky-600'>
-                Frequently Asked Questions
+              <h2 className='mb-16 text-5xl text-center font-bold font-heading tracking-px-n leading-none text-sky-600'>
+                <span className={papyrus.className}>Frequently Asked Questions</span>
               </h2>
               <div className='mb-11 flex flex-wrap -m-1'>
                 <div className='w-full p-1'>
@@ -26,12 +25,10 @@ export default function FAQ() {
                       <div className='flex flex-wrap justify-between -m-2'>
                         <div className='flex-1 p-2'>
                           <h3 className='mb-4 text-lg font-semibold leading-normal'>
-                            What is this book about?
+                            ⁠What is "Saccha Sur" all about?
                           </h3>
                           <p className='text-gray-600 font-medium'>
-                            Lorem ipsum dolor sit amet, to the consectr
-                            adipiscing elit. Volutpat tempor to the condi mentum
-                            vitae vel purus.
+                          Saccha Sur is a compilation of first hand experiences of Sanghmitra with the incredible gurus - Bhaskar and Freddy !  To the world, Bhaskar and Freddy, were phenomenal musicians; for Sanghmitra, they were Grace Incarnate. Music was the craft they taught, yet the flowering of the disciple was their sole objective. Every story in Saccha Sur, is a carefully curated vignette, carrying a drop of timeless truth that feeds the soul ! These stories are an invitation to transformation ...each one can be the beginning of something new !
                           </p>
                         </div>
                         <div className='w-auto p-2'>
@@ -62,8 +59,10 @@ export default function FAQ() {
                       <div className='flex flex-wrap justify-between -m-2'>
                         <div className='flex-1 p-2'>
                           <h3 className='text-lg font-semibold leading-normal'>
-                            Who is Sangamitra?
+                            ⁠Is "Saccha Sur" available for international shipping?  
                           </h3>
+                          <p>Yes, International shipping is available. Please click on this link to learn about the shipping charges to various countries. If your state or country is not mentioned, please write to us on this link with your order quantity, full address and telephone number and we will get back to you regarding the exact shipping cost. 
+      </p>
                         </div>
                         <div className='w-auto p-2'>
                           <svg
@@ -93,8 +92,10 @@ export default function FAQ() {
                       <div className='flex flex-wrap justify-between -m-2'>
                         <div className='flex-1 p-2'>
                           <h3 className='text-lg font-semibold leading-normal'>
-                            How can I order in bulk?
+                            ⁠How long does it take to receive the book after placing an order?
                           </h3>
+                          <p>Your copies will be shipped within 48hours of the realisation of the credit of your payment. For any questions, please click here to leave us a note. 
+      </p>
                         </div>
                         <div className='w-auto p-2'>
                           <svg
@@ -124,8 +125,10 @@ export default function FAQ() {
                       <div className='flex flex-wrap justify-between -m-2'>
                         <div className='flex-1 p-2'>
                           <h3 className='text-lg font-semibold leading-normal'>
-                            What is in the community?
+                          ⁠Can I track my order?
                           </h3>
+                          <p>Once your book is shipped, your tracking number and website will be shared with you on the email id that has been entered during the payment process. 
+      </p>
                         </div>
                         <div className='w-auto p-2'>
                           <svg

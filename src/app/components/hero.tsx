@@ -3,7 +3,9 @@ import { useState } from 'react'
 import Image from 'next/image'
 import bookCover from '@/../public/images/book-cover.png'
 import logo from '@/../public/images/tell-me-a-story-2.png'
-
+import localFont from 'next/font/local'
+const papyrus = localFont({ src: './papyrus.ttf' })
+const ayuthaya = localFont({ src: './Ayuthaya.ttf' })
 
 import Preview from '@/app/components/preview'
 
@@ -35,18 +37,18 @@ export default function Hero() {
                     <div className='flex flex-wrap -m-8'>
                         <div className='w-full md:w-2/3 p-8'>
                             <h1
-                                className='mb-6 text-6xl font-bold font-heading md:max-w-3xl leading-none text-sky-600'>
-                                Stories are meant to be told and retold
+                                className='mb-6 text-5xl font-bold font-heading md:max-w-3xl leading-none text-sky-600'>
+                                <span className={papyrus.className}>Stories are meant to be <br/>told and retold</span>
                             </h1>
                             <p
-                                className='mb-11 text-gray-900 font-medium md:max-w-xl text-2xl'>
-                                An evocative collection of generational wisdom inspired by great artists, to help you cultivate your soul in a field of grace.
+                                className='mb-11 text-gray-700 font-medium md:max-w-xl text-lg'>
+                                <span className={ayuthaya.className}>An evocative collection of generational wisdom to help you cultivate your soul in the field of grace.</span>
                             </p>
                             <div className='flex flex-wrap -m-2.5 mb-20'>
                                 <div className='w-full md:w-auto p-2.5'>
                                     <div className='block'>
                                         <a href="https://pages.razorpay.com/pl_N6TrGb0E9gozlm/view"
-                                            className='block py-4 px-6 w-full text-white font-semibold border rounded-xl focus:ring transition ease-in-out duration-200 text-base font-medium focus:ring-gray-50 bg-orange-500 border-yellow-600 focus:ring-yellow-400 hover:bg-orange-600'
+                                            className='block py-3 px-6 w-full text-white font-semibold border rounded-xl focus:ring transition ease-in-out duration-200 text-base font-medium focus:ring-gray-50 bg-orange-500 border-yellow-600 focus:ring-yellow-400 hover:bg-orange-600'
                                             
                                         >
                                             Buy the Book
@@ -57,7 +59,7 @@ export default function Hero() {
                                 <div className='w-full md:w-auto p-2.5'>
                                     <div className='block'>
                                         <button
-                                            className='py-4 px-9 w-full font-semibold border border-gray-300 hover:border-gray-400 rounded-xl focus:ring focus:ring-gray-50 bg-white hover:bg-gray-100 transition ease-in-out duration-200'
+                                            className='py-3 px-9 w-full font-semibold border border-gray-300 hover:border-gray-400 rounded-xl focus:ring focus:ring-gray-50 bg-white hover:bg-gray-100 transition ease-in-out duration-200'
                                             type='button'
                                             onClick={() => setOpen(true)}
                                         >
@@ -84,32 +86,8 @@ export default function Hero() {
                             </div>
                         </div>
                         <div className='-mt-16 w-full md:w-1/3 p-8 pb-16'>
-                            <div className='inline-block mb-6 px-2 py-1 font-semibold bg-orange-100 rounded-full'>
-                                <div className='flex flex-wrap items-center -m-1'>
-                                    <div className='w-auto p-1'>
-                                        👋 The Book that inspired us
-                                    </div>
-                                    <div className='w-auto p-1'>
-                                        <svg
-                                            width={15}
-                                            height={15}
-                                            viewBox='0 0 15 15'
-                                            fill='none'
-                                            xmlns='http://www.w3.org/2000/svg'
-                                        >
-                                            <path
-                                                d='M8.66667 3.41675L12.75 7.50008M12.75 7.50008L8.66667 11.5834M12.75 7.50008L2.25 7.50008'
-                                                stroke='black'
-                                                strokeWidth='1.5'
-                                                strokeLinecap='round'
-                                                strokeLinejoin='round'
-                                            />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
                             <Image
-                                className='shadow shadow-md transform hover:-translate-y-16 transition ease-in-out duration-1000'
+                                className='shadow shadow-md'
                                 src={bookCover}
                                 alt=''
                             />
