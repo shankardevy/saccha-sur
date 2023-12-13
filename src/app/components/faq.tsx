@@ -5,7 +5,6 @@ const papyrus = localFont({ src: './papyrus.ttf' })
 
 export default function FAQ() {
     return (
-
         <section className='relative pt-24 pb-28 bg-blueGray-50 overflow-hidden'>
           <Image
             className='absolute bottom-0 left-1/2 transform -translate-x-1/2'
@@ -127,8 +126,76 @@ export default function FAQ() {
                           <h3 className='text-lg font-semibold leading-normal'>
                           ⁠Can I track my order?
                           </h3>
-                          <p>Once your book is shipped, your tracking number and website will be shared with you on the email id that has been entered during the payment process. 
-      </p>
+                          <p>Once your book is shipped, your tracking number and website will be shared with you on the email id that has been entered during the payment process. </p>
+                        </div>
+                        <div className='w-auto p-2'>
+                          <svg
+                            className='relative top-1'
+                            width={18}
+                            height={18}
+                            viewBox='0 0 18 18'
+                            fill='none'
+                            xmlns='http://www.w3.org/2000/svg'
+                          >
+                            <path
+                              d='M14.25 6.75L9 12L3.75 6.75'
+                              stroke='#18181B'
+                              strokeWidth={2}
+                              strokeLinecap='round'
+                              strokeLinejoin='round'
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+         
+      
+                <div className='w-full p-1'>
+                  <a href='#'>
+                    <div className='py-7 px-8 bg-white bg-opacity-60 border border-gray-200 hover:border-gray-300 rounded-2xl shadow-10xl'>
+                      <div className='flex flex-wrap justify-between -m-2'>
+                        <div className='flex-1 p-2'>
+                          <h3 className='text-lg font-semibold leading-normal'>
+                          ⁠Is there an e-book version available?
+                          </h3>
+                          <p>The "Saccha Sur" book has been carefully created as a piece of art that can be appreciated with all your senses. We have not planned for an e-book for now however, please leave us a note here and we will consider your suggestion.</p>
+                        </div>
+                        <div className='w-auto p-2'>
+                          <svg
+                            className='relative top-1'
+                            width={18}
+                            height={18}
+                            viewBox='0 0 18 18'
+                            fill='none'
+                            xmlns='http://www.w3.org/2000/svg'
+                          >
+                            <path
+                              d='M14.25 6.75L9 12L3.75 6.75'
+                              stroke='#18181B'
+                              strokeWidth={2}
+                              strokeLinecap='round'
+                              strokeLinejoin='round'
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div className='w-full p-1'>
+                  <a href='#'>
+                    <div className='py-7 px-8 bg-white bg-opacity-60 border border-gray-200 hover:border-gray-300 rounded-2xl shadow-10xl'>
+                      <div className='flex flex-wrap justify-between -m-2'>
+                        <div className='flex-1 p-2'>
+                          <h3 className='text-lg font-semibold leading-normal'>
+                          ⁠How can I contact customer support?
+                          </h3>
+                          <p>
+                          You can contact us here and we will address all your queries within 48 hours.
+                            
+                            </p>
                         </div>
                         <div className='w-auto p-2'>
                           <svg
