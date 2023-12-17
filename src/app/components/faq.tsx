@@ -191,7 +191,7 @@ export default function FAQ() {
                           ⁠How can I contact customer support?
                           </h3>
                           <p>
-                          You can contact us here and we will address all your queries within 48 hours.
+                          You can contact us and we will address all your queries within 48 hours.
                             
                             </p>
                         </div>
