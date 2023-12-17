@@ -91,7 +91,7 @@ export default function FAQ() {
                           <h3 className='text-lg font-semibold leading-normal'>
                             ⁠How long does it take to receive the book after placing an order?
                           </h3>
-                          <p>Your copies will be shipped within 48hours of the realisation of the credit of your payment. For any questions, please click here to leave us a note. 
+                          <p>Your copies will be shipped within 48hours of the realisation of the credit of your payment. 
       </p>
                         </div>
                         <div className='w-auto p-2'>
@@ -158,7 +158,7 @@ export default function FAQ() {
                           <h3 className='text-lg font-semibold leading-normal'>
                           ⁠Is there an e-book version available?
                           </h3>
-                          <p>The Saccha Sur book has been carefully created as a piece of art that can be appreciated with all your senses. We have not planned for an e-book for now however, please leave us a note here and we will consider your suggestion.</p>
+                          <p>The Saccha Sur book has been carefully created as a piece of art that can be appreciated with all your senses. We have not planned for an e-book for now however, please <a href="mailto:sanghamitra.stories@gmail.com">leave us a note here</a> and we will consider your suggestion.</p>
                         </div>
                         <div className='w-auto p-2'>
                           <svg
@@ -222,8 +222,7 @@ export default function FAQ() {
                 <span>Still have any questions?&nbsp;</span><br/>
                 <a
                   className='font-semibold text-indigo-600 hover:text-indigo-700'
-                  href='#'
-                >
+                  href='mailto:sanghamitra.stories@gmail.com'>
                   Contact us
                 </a>
               </p>
