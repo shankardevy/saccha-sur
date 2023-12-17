@@ -19,7 +19,7 @@ export default function FAQ() {
               </h2>
               <div className='mb-11 flex flex-wrap -m-1'>
                 <div className='w-full p-1'>
-                  <a href='#'>
+                  <a>
                     <div className='py-7 px-8 bg-white bg-opacity-60 border-2 border-indigo-600 rounded-2xl shadow-10xl'>
                       <div className='flex flex-wrap justify-between -m-2'>
                         <div className='flex-1 p-2'>
@@ -51,7 +51,7 @@ export default function FAQ() {
                   </a>
                 </div>
                 <div className='w-full p-1'>
-                  <a href='#'>
+                  <a>
                     <div className='py-7 px-8 bg-white bg-opacity-60 border border-gray-200 hover:border-gray-300 rounded-2xl shadow-10xl'>
                       <div className='flex flex-wrap justify-between -m-2'>
                         <div className='flex-1 p-2'>
@@ -84,7 +84,7 @@ export default function FAQ() {
                   </a>
                 </div>
                 <div className='w-full p-1'>
-                  <a href='#'>
+                  <a>
                     <div className='py-7 px-8 bg-white bg-opacity-60 border border-gray-200 hover:border-gray-300 rounded-2xl shadow-10xl'>
                       <div className='flex flex-wrap justify-between -m-2'>
                         <div className='flex-1 p-2'>
@@ -117,7 +117,7 @@ export default function FAQ() {
                   </a>
                 </div>
                 <div className='w-full p-1'>
-                  <a href='#'>
+                  <a>
                     <div className='py-7 px-8 bg-white bg-opacity-60 border border-gray-200 hover:border-gray-300 rounded-2xl shadow-10xl'>
                       <div className='flex flex-wrap justify-between -m-2'>
                         <div className='flex-1 p-2'>
@@ -151,7 +151,7 @@ export default function FAQ() {
          
       
                 <div className='w-full p-1'>
-                  <a href='#'>
+                  <a>
                     <div className='py-7 px-8 bg-white bg-opacity-60 border border-gray-200 hover:border-gray-300 rounded-2xl shadow-10xl'>
                       <div className='flex flex-wrap justify-between -m-2'>
                         <div className='flex-1 p-2'>
@@ -183,7 +183,7 @@ export default function FAQ() {
                   </a>
                 </div>
                 <div className='w-full p-1'>
-                  <a href='#'>
+                  <a>
                     <div className='py-7 px-8 bg-white bg-opacity-60 border border-gray-200 hover:border-gray-300 rounded-2xl shadow-10xl'>
                       <div className='flex flex-wrap justify-between -m-2'>
                         <div className='flex-1 p-2'>
