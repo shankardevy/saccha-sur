@@ -58,7 +58,7 @@ export default function FAQ() {
                           <h3 className='text-lg font-semibold leading-normal'>
                             ⁠Is Saccha Sur available for international shipping?  
                           </h3>
-                          <p>Yes, International shipping is available. Please click on this link to learn about the shipping charges to various countries. If your state or country is not mentioned, please write to us on this link with your order quantity, full address and telephone number and we will get back to you regarding the exact shipping cost. 
+                          <p>Yes, International shipping is available. Please <a href="https://www.indiapost.gov.in/MBE/Pages/Content/International-Speed-Post-.aspx">click on this link</a> to learn about the shipping charges to various countries. If your state or country is not mentioned, please write to us with your order quantity, full address and telephone number and we will get back to you regarding the exact shipping cost. 
       </p>
                         </div>
                         <div className='w-auto p-2'>
