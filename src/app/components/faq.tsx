@@ -25,7 +25,7 @@ export default function FAQ() {
                         <div className='flex-1 p-2'>
                           <h3 className='mb-4 text-lg font-semibold leading-normal'>⁠What is Saccha Sur all about?</h3>
                           <p className='text-gray-600 font-medium'>
-                          Saccha Sur is a compilation of first hand experiences of Sanghmitra with the incredible gurus - Bhaskar and Freddy! To the world, Bhaskar and Freddy, were phenomenal musicians; for Sanghmitra, they were Grace Incarnate. Music was the craft they taught, yet the flowering of the disciple was their sole objective. Every story in Saccha Sur, is a carefully curated vignette, carrying a drop of timeless truth that feeds the soul! These stories are an invitation to transformation ...each one can be the beginning of something new!
+                          Saccha Sur is a compilation of first hand experiences of Sanghamitra with the incredible gurus - Bhaskar and Freddy! To the world, Bhaskar and Freddy, were phenomenal musicians; for Sanghmitra, they were Grace Incarnate. Music was the craft they taught, yet the flowering of the disciple was their sole objective. Every story in Saccha Sur, is a carefully curated vignette, carrying a drop of timeless truth that feeds the soul! These stories are an invitation to transformation ...each one can be the beginning of something new!
                           </p>
                         </div>
                         <div className='w-auto p-2'>
