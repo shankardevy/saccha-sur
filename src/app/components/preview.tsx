@@ -93,7 +93,7 @@ export default function Preview({ isOpen, setOpen }) {
   at that time. Even then, we had an easy
   and friendly relationship. Most times I
   would not have hesitated to call him my
-  best f riend. We talked about anything
+  best friend. We talked about anything
   and everything.</p>
   
 
